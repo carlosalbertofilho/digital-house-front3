@@ -5,12 +5,14 @@ export function QuartaAula(){
 
     const componentsFinded = [
         {
-            title: 'Video Componenet'
+            id: 1
+            , title: 'Video Componenet'
             , image: youtube01
             , text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ab laborum molestiae, quisquam odit fugiat facilis ex deserunt aspernatur autem nihil cumque eveniet quod at nam laboriosam modi pariatur? Explicabo!'
         }
         , {
-            title: 'Input Componenet'
+            id: 2
+            , title: 'Input Componenet'
             , image: youtube01
             , text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ab laborum molestiae, quisquam odit fugiat facilis ex deserunt aspernatur autem nihil cumque eveniet quod at nam laboriosam modi pariatur? Explicabo!'
         }
@@ -27,7 +29,7 @@ export function QuartaAula(){
                     componentsFinded.map(
                         component => {
                             return(
-                                <li>
+                                <li key={component.id}>
                                     <img src={component.image} alt="" />
                                     <h1> {component.title} </h1>
                                     <p>{component.text}</p>
