@@ -1,12 +1,13 @@
-import { Aula02 } from "./aulas/aula02"
-import { Login } from "./pages/Login"
+import { QuartaAula } from "./aulas/aula04";
+// import { Aula02 } from "./aulas/aula02"
+// import { Login } from "./pages/Login"
 
 function App() {
   return (
 
     //<Login />
-    <Aula02 />
-
+    //<Aula02 />
+    <QuartaAula />
   );
 };
 
