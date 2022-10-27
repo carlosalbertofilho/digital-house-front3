@@ -1,5 +1,6 @@
 import './style.scss'
 import youtube01 from './../../assets/image/youtube01.png'
+import { QuintaAulaItem } from '../aula05'
 
 export function QuartaAula(){
 
@@ -25,19 +26,15 @@ export function QuartaAula(){
 
             <ul className='components-finded'>
 
-                {
+                {                   
+
                     componentsFinded.map(
                         component => {
                             return(
-                                <li key={component.id}>
-                                    <img src={component.image} alt="" />
-                                    <h1> {component.title} </h1>
-                                    <p>{component.text}</p>
-                                </li>
+                                <QuintaAulaItem item={component}/>
                             )
                         }
                     )
-
                 }
             </ul>
         </div>
