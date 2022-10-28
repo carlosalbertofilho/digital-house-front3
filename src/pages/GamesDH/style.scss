@@ -1,0 +1,14 @@
+.header {
+    grid-area: nav;
+}
+
+.banner {
+    grid-area: banner;
+}
+
+#root {
+    display: grid;
+    grid-template-areas: 
+        'nav'
+        'banner';
+}
