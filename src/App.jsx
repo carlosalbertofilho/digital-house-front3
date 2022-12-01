@@ -2,7 +2,8 @@
 // import { SegundaAula } from "./aulas/aula02";
 // import { Login } from "./pages/Login"
 // import { GamesDHPage } from "./pages/GamesDH";
-import { Aula07 } from "./aulas/aula07";
+// import { Aula07 } from "./aulas/aula07";
+import { Aula13 } from "./aulas/aula13"
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
     // <SegundaAula />
     // <QuartaAula />
     // <GamesDHPage/>
-    <Aula07 />
+    // <Aula07 />
+    <Aula13 />
   );
 };
 
