@@ -22,7 +22,7 @@ export function Aula14() {
         <ul>
           {listComments.map((comment) => {
             return <Aula14Item
-                     id={comment.id}
+                     key={comment.id}
                      post={comment} />;
           })}
         </ul>
