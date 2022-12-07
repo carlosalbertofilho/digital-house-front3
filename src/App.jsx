@@ -19,12 +19,16 @@ function App() {
           element: <Home />,
         },
         {
-          path: "/aula/02",
+          path: "/aula/2",
           element: <Aula02 />,
         },
         {
-          path: "/aula/04",
+          path: "/aula/4",
           element: <Aula04 />,
+        },
+        {
+          path: "/aula/7",
+          element: <Aula07 />,
         },
         {
           path: "/aula/13",
